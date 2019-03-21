@@ -1,0 +1,25 @@
+.subjec{
+	float: right;
+	text-transform: uppercase;
+}
+
+.logo img{
+	float: left;
+	position: absolute;
+	width:10%;
+}
+
+@media screen and (min-width: 1200px) {
+	.logo img{
+	width:7%;
+	}	
+}
+
+.clear{
+	clear: both;
+}
+
+footer{
+	margin: 20px auto;
+	padding: 10px;
+}
